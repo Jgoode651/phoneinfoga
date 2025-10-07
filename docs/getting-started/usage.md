@@ -3,18 +3,19 @@
 Use the `scan` command with the `-n` (or `--number`) option.
 
 ```
-phoneinfoga scan -n "+1 (555) 444-1212"
-phoneinfoga scan -n "+33 06 79368229"
-phoneinfoga scan -n "33679368229"
+phoneinfoga scan -n "+1 612-552-9342
+phoneinfoga scan -n "+1 612-552-9342
+phoneinfoga scan -n "
 ```
 
 Special chars such as `( ) - +` will be escaped so typing US-based numbers stay easy : 
 
 ```
-phoneinfoga scan -n "+1 555-444-3333"
+phoneinfoga scan -n "+1 612-552-9342
 ```
 
-!!! note "Note that the country code is essential. You don't know which country code to use ? [Find it here](https://www.countrycode.org/)"
+!!! note "Note that the country code is essential. You don't know which country code to use ? [Find it 
+here](https://www.countrycode.org/)"
 
 <!--
 #### Input & output file
